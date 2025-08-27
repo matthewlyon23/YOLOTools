@@ -6,8 +6,8 @@ functions and capabilities for a streamlined YOLO experience in Unity.
 
 ## Requirements
 
-- [Unity 6000.0.20f1](https://unity.com/releases/editor/whats-new/6000.0.20#installs) with Android Build Support
-  - Note: Whilst it is possible to open the project in Unity Editor Version 6000.0.20f1 or *later*, it is not recommended as this can cause bugs. Proceed at your own risk.
+- [Unity 6000.0.20f1](https://unity.com/releases/editor/whats-new/6000.0.20#installs)
+  - The package also supports Unity 6.2, though this has not been tested as thoroughly. The package is designed to switch to the new InferenceEngine package automatically, though your mileage may vary.
 - Horizon OS version 76
 - The following permissions are required to use the Object Display Manager:
   - `com.oculus.permission.USE_SCENE`
