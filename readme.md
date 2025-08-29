@@ -30,14 +30,15 @@ the Unity registry. All other necessary packages are included within YOLOTools.
 #### Installing From Git
 
 Select the `+` icon in the top left of the Package Manager window and select `Install package from git URL...`.
-Enter the url of a git repository hosting the package ([feel free to use this one](https://github.com/matthewlyon23/YOLOTools)) and 
-click `Install`. If the package is in a subdirectory of the repository, this can be specified with the [`path` query
-parameter](https://docs.unity3d.com/6000.2/Documentation/Manual/upm-git.html#subfolder).
+Enter the url of this git repository and click `Install`. 
 
+```text
+https://github.com/matthewlyon23/YOLOTools.git
+```
 
+![upm_git.png](docs/upm_git.png)
 
 ### Installing Manually
 
 The package can also be installed manually simply by copying the folder into your project, however the dependencies listed in
 [package.json](package.json) will need to be installed manually or the package will not function.
-
